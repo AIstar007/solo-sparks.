@@ -155,9 +155,9 @@ npm start
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**Alen Thomas**  
 Full Stack Internship Assignment – 2025  
-[GitHub Profile](https://github.com/your-username)
+[GitHub Profile](https://github.com/AIstar007)
 
 ---
 
