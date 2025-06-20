@@ -14,7 +14,6 @@ const Dashboard = () => {
       try {
         const token = localStorage.getItem("token");
 
-        // Fetch quests and user data in parallel
         const [questsRes, userRes] = await Promise.all([
           axios.get("http://localhost:5000/api/quests/user", {
             headers: { Authorization: `Bearer ${token}` },
@@ -51,7 +50,7 @@ const Dashboard = () => {
         }
       );
       alert("✅ Added 10 test points!");
-      setPoints(res.data.points); // Update UI
+      setPoints(res.data.points);
     } catch (err) {
       alert("❌ Failed to add points");
     }
